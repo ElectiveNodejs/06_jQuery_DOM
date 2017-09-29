@@ -1,0 +1,67 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #bdbdc7;
+}
+
+#messageForm, #messageDisplay{
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+label{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#studentName, #studentMsg, #sendMsg, #changeColors, #shuffleMsg{
+	font-size: 14px;
+  	padding: 10px 8px 10px 8px;
+  	border-radius: 5px;
+  	border: 1px solid #666;
+}
+
+#sendMsg{
+	margin-top: 20px;
+	background: #08c;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+#messageBox{
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.msg{
+	border: 5px black solid;
+	border-radius: 5px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#changeColors, #shuffleMsg{
+	background: #ff6600;
+	color: #fff;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+#shuffleMsg{
+	background: #000;
+}
+
+
+
+
+
